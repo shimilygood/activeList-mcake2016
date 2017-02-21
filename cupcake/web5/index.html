@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html manifest="demo.manifest">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>cupcake</title>
+
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            // andriod 2.3
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+                // andriod 2.3以上
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+            // 其他系统
+        } else {
+            if(ua.indexOf("iPhone") != -1) {
+                document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+            }else if(ua.indexOf("iPad") != -1) {
+                document.write('<meta name="viewport" content="width=1024, user-scalable=no, target-densitydpi=device-dpi">');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/butter.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen"/>
+</head>
+<body>
+  <section>
+   	<div class="content">
+        <div class="section section1">
+            <span><img src="images/bg/bg-0.jpg"></span>
+            <span><img src="images/bg/bg-1.jpg"></span>
+            <span><img src="images/bg/bg-2.jpg"></span>
+            <span><img src="images/bg/bg-3.jpg"></span>
+            <span><img src="images/bg/bg-4.jpg"></span>
+            <span><img src="images/bg/bg-5.jpg"></span>
+            <p><img src="images/cake-1.png" class="cake1"></p>
+            <p><img src="images/zhi.jpg"></p>
+            <p><img src="images/title-1.png"></p>
+            <p><img src="images/price-1.png"></p>
+            <p><img src="images/cake-2.png" class="cake2"></p>
+            <p><img src="images/liulian.png"></p>
+            <p class="gobuy"><img src="images/d-gou-1.png"></p>
+        </div>
+        <div class="section section2">
+            <span><img src="images/bg/bg-0.jpg"></span>
+            <span><img src="images/bg/bg-1.jpg"></span>
+            <span><img src="images/bg/bg-2.jpg"></span>
+            <span><img src="images/bg/bg-3.jpg"></span>
+            <span><img src="images/bg/bg-4.jpg"></span>
+            <span><img src="images/bg/bg-5.jpg"></span>
+            <p><img src="images/cake-3.png" class="cake3"></p>
+            <p><img src="images/title-2.png" class="title3"></p>
+            <p><img src="images/title-3.png" class="title4"></p>
+            <p><img src="images/cake-4.png" class="cake4"></p>
+            <p><img src="images/cake-5.png" class="cake5"></p>
+           
+          
+        </div>
+        <div class="section section3">
+           <span><img src="images/bg/bg-0.jpg"></span>
+            <span><img src="images/bg/bg-1.jpg"></span>
+            <span><img src="images/bg/bg-2.jpg"></span>
+            <span><img src="images/bg/bg-3.jpg"></span>
+            <span><img src="images/bg/bg-4.jpg"></span>
+            <span><img src="images/bg/bg-5.jpg"></span>
+            <p><img src="images/title-4.png" class="title5"></p>
+            <p><img src="images/cake-6.png" class="cake6"></p>
+            <p><img src="images/teng-1.png"></p>
+            <p><img src="images/cake-7.png" class="cake7"></p>
+            <p><img src="images/title-5.png" class="title7"></p>
+            <p><img src="images/huaban.png"></p>
+            <p><img src="images/shiliu2.png"></p>
+        </div>
+        <div class="section section4">
+            <span><img src="images/bg/bg-1.jpg"></span>
+            <span><img src="images/bg/bg-2.jpg"></span>
+            <span><img src="images/bg/bg-3.jpg"></span>
+            <span><img src="images/bg/bg-4.jpg"></span>
+            <span><img src="images/bg/bg-5.jpg"></span>
+            <p><img src="images/hezi.png" class="cake8"></p>
+            <p><img src="images/teng-2.png"></p>
+            <p><img src="images/title-6.png"></p>
+            <p><img src="images/price-2.png"></p>
+            <p><img src="images/title-7.png" class="title8"></p>
+            <p class="gobuy"><img src="images/d-gou-2.png"></p>
+        </div>
+        <div class="buyBtn1"><a href="#"></a></div>
+        <div class="buyBtn2"><a href="#"></a></div>
+    </div>
+    
+    <!-- 蝴蝶飞飞 -->
+
+    <div class="svg-box">
+        <svg id="svg_path" width="640px" height="2432px" viewBox="0 0 640 2432" enable-background="new 0 0 1200 2432" xml:space="preserve">
+            <path id="path_a" fill="none" stroke="none" stroke-width="0" stroke-miterlimit="10" d="M55,105c0,0,265,46,364,152c84.335,90.298,99,166,99,232s-1.5,69.5-25.5,109.5c-22.361,37.269-79,73-79,73" />
+
+            <path id="path_b" fill="none" stroke="none" stroke-width="0" stroke-miterlimit="10" d="M356,743c0,0-203,116-210,324s31,280,153,389s198,133,235.826,234c30.335,80.999,6.174,178-43.826,224s-76,58-76,58"/>
+        </svg>
+    </div>
+    <div id="fly_layer" class="fly-layer">
+        <div id="butterfly" class="butterflies butterflies-shadows">
+            <div>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
+            </div>
+        </div>
+    </div>
+
+  </section>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/Butterfly.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>父亲节banner</title>
+<meta http-equiv="X-UA-Compatible" content="edge" />
+<link type="text/css" href="css/comm_header.css" rel="stylesheet"/>
+
+<link href="css/banner.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+ <div class="top-t"></div>
+<div class="banner-content ">
+	<div class="banner">
+
+ <div style="position:fixed; right:50%; top:150px; margin-right:-600px; z-index:91" id="bestie_fixed"><a href="#"><img src="images/banner/tips.png" /></a></div>
+
+    	 <div class="banner_left">
+    	 	<div class="switch a-ring" onclick="S.switchFun()">挤我交换动画</div>
+    	 	<div class="jijiang">
+                <img src="images/banner/jiang-1.png" alt="" style="display: block;" />
+                <img src="images/banner/jiang-2.png" alt="" />
+                <img src="images/banner/jiang-3.png" alt="" />
+                <img src="images/banner/jiang-4.png" alt="" />
+            </div>
+    	 	<a href="#"><div class="btn"></div></a>
+    	 </div>
+    	 <div class="banner_right">
+    	 	<div class="eye"></div>
+            <div class="hat"></div>
+    	 	
+            <!-- <div class="hands"><img src="images/banner/hands.png" alt="" /></div> -->
+            <div class="handsLeft"><img src="images/banner/hand_l.png" alt="" /></div>
+            <div class="handsRight"><img src="images/banner/hand_r.png" alt="" /></div>
+          
+
+    	 	<div class="cake"><img src="images/banner/cake.png" alt="" /></div>
+    	 	<div class="face"><img src="images/banner/face-1.png" alt="" /></div>
+    	 </div>
+    </div>
+</div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/banner.js"></script>
+<script>
+     $(window).bind("load scroll resize", function () {
+            var _scrollTop = $(window).scrollTop();
+            if (_scrollTop >= 650) {
+                $('#bestie_fixed').css({'display':'none'});
+                
+            } else {
+                $('#bestie_fixed').css({'display':'block'});
+            }
+          });
+</script>
+</body>
+</html>

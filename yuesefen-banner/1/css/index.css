@@ -1,0 +1,334 @@
+﻿#mainer{ margin:auto; height:auto}
+.class_title{  max-width:1136px;max-width:1040px\9;max-width:1160px\9\0; margin:auto; border-bottom:1px #ccc solid; padding-bottom:10px;}
+.class_title div{width:120px; margin:auto; font-size:14px}
+.class_title span{ display:block; text-align:center}
+.class_title samp{ display:block;background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) no-repeat; width:120px; height:30px;}
+.class_title .all_pro samp{ background-position:-12px -140px;}
+.class_title .other_pro{ width:400px;}
+.class_title .other_pro samp{ width:400px;background:url(http://www.mcake.com/shop/theme/xth1/images/comm/other_pro.png) no-repeat;}
+
+
+
+.allmenu{width:1145px;width:1060px\9;width:1145px\9\0;height:1px; margin:auto; position:relative}
+.Class{ width:83px; position:absolute; right:-80px;top:30px;zoom: 1; text-align:right; }
+.Class ul li ul li{ padding:5px 0px; }
+.Class ul li ul li span{display:block; font-weight:normal; line-height:18px; padding-right:15px;}
+.Class ul li ul li a{display:block}
+.Class ul li ul li a:hover span{background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) no-repeat; background-position:61px -217px;}
+.Class ul li ul li.onc a{ color:#C90}
+.splitter{ margin-top:25px;}
+.splitter li{}
+.splitter li ul li ul{display:none}
+.splitter li ul li.cur ul{ display:block}
+.splitter li ul li b{ cursor:pointer; color:#7b9196; display:block; padding:5px 12px 10px 0px;background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) no-repeat; background-position:-314px -124px; }
+.splitter li ul li b{ background:none;}
+.splitter li ul li.v_cur b{background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) no-repeat;background-position:-314px -126px;}
+.other_box{display:none}
+
+
+.listbox{ width:1132px;width:1040px\9;width:1160px\9\0; overflow:hidden; margin:auto; }
+.image-grid{ margin:auto; margin-top:15px;margin-left:7px;_margin-left:5px; *margin-left:5px;overflow:hidden}
+.image-grid li{float:left; overflow:hidden; width:225px;*width:206px;_width:206px; padding-bottom:20px; cursor:pointer}
+.image-grid li .pro_box{position:relative;margin-right:10px; overflow:hidden;*height:197px;_height:197px;}
+.image-grid li .pro_box img{ height:216px; width:216px;height:197px\9;height:216px\9\0;width:197px\9;width:216px\9\0;  }
+.image-grid li .pro_box div.mask{ position:absolute; bottom:-55px; left:0; width:100%; height:55px; background:rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* For IE 8*/ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; z-index:90;}
+.image-grid li .pro_box div.mask font{ display:block; padding: 10px 15px 5px 15px;*padding: 5px 15px 5px 15px;_padding: 5px 15px 5px 15px; text-align:left;color:#FFF}
+.image-grid li div.Sweetness_box{float:left;  width:100%; position:relative}
+.image-grid li div.Sweetness_box span{ float:left;padding:0 10px 0 15px;color:#FFF}
+.image-grid li div.Sweetness_box .buy_icon{ position:absolute; right:10px; top:50%;margin-top: -30px; width:36px; height:36px; background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) #f2f6f7; background-position:-39px -6px;}
+.image-grid li div.Sweetness_box .buy_icon a{display:block; height:36px;}
+.image-grid li div.Sweetness_box ul{float:left}
+.image-grid li div.Sweetness_box ul li{ height:16px; padding:0; }
+.image-grid li div samp{ display:none}
+.pro_title img {float: left;margin-top: 5px;}
+.pro_title span{ display:block; text-align:center; height:18px; overflow:hidden;padding: 0 20px;}
+.pro_title{position:relative;padding-right: 10px;height: 40px;}
+.pro_title a{position: absolute; top:0;left: 0; width:100%;}
+.pro_title i{position:absolute;background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png); width:30px; height:30px; left:0px; top:5px;}
+.pro_title i.m_hot{ background-position:-214px -8px}
+.pro_title i.m_glod{ background-position:-260px -8px}
+
+ul.Sweetness{ float:left}
+ul.Sweetness li{ background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png); width:16px; height:16px; background-position:-268px -65px; margin-right:0px;}
+
+span.font01{ font-weight:bold;  padding-top:5px;}
+span.font02{  }
+
+
+
+
+
+/*拿破仑新品 banner*/
+.banner_box_nn{background:#f2f6f7; height:1300px;margin-bottom:20px; position:relative;overflow: hidden;}
+#banner{  margin:auto;  width:1280px; position:relative; height: 1300px; }
+#thanks{ width:260px; height:161px; background:url(../images/tingks_giing.png) no-repeat; position:absolute; left: 300px;
+top: 25px;
+z-index: 20;}
+#thanks a {display:block; height:161px;}
+#nn-01{ width:327px; height:335px; position:absolute; top: -55px;left:170px;z-index:15; }
+#nn-01 a{ display:block; height:292px; width:280px;}
+#nn-02{
+	position: absolute;
+	width: 490px;
+	height: 122px;
+	left: 160px;
+	padding-top: 30px;
+	top: 200px;
+	z-index: 1;
+	line-height: 24px;
+	background:url(../images/jt-01.png) no-repeat 350px top;}
+#nn-02 p,#nn-04 p{line-height:14px; padding:10px 0 0 0; color:#b9b9b9;font-family:"Arial Narrow";}
+
+div.banner_btn {width:100%;width:250px; border:none;  border-top:1px #d1d1d1 solid; padding-top:5px; margin-top:5px;} 
+div.banner_btn a{background:#b0916a; padding:3px 30px;color:#FFF; cursor:pointer; -moz-border-radius: 2px;/* Gecko browsers */-webkit-border-radius: 2px;   /* Webkit browsers */
+border-radius:2px;/* W3C syntax */}
+#nn-03{ width:506px; height:505px; position:absolute;top:0px;right:100px;z-index:1;}
+#nn-03 img{ margin:0 0 0 10px; position:absolute; z-index:1; left:0; top:0;}
+#nn-03 div{position:relative}
+#nn-04{
+position: absolute;
+width: 363px;
+padding-left: 80px;
+height: 200px;
+right: 245px;
+bottom: 80px;
+z-index: 1;
+line-height: 24px;
+background: url(http://www.mcake.com/postsystem/docroot/images/kindeditor/20140910/2014091010045349340.png) no-repeat 0 160px;
+}
+#Spoon{
+position:absolute; width:207px; height:315px; left: 60px; top:-120px;
+}
+#Mango{position:absolute; background:url(../images/cake_mg.png) no-repeat; width:297px; height:201px;right: 220px;
+bottom: 0px;display:none}
+#nn-05{ 
+  position:absolute;
+  width:708px; 
+  height:649px;
+  left:0px; 
+  top: 338px;
+  z-index:0;
+}
+#nn-05 div{position:relative}
+#nn-05 img{position:absolute; left:0; top:0; z-index:1;}
+samp.nn-05-bg{
+  background:url(http://www.mcake.com/postsystem/docroot/images/kindeditor/20140911/2014091117331660480.png) no-repeat; 
+  top:0; 
+  left:0; 
+  z-index:0; 
+  display:block;  
+  width:708px; 
+  height:649px; 
+  position:absolute;
+}
+#element14 {
+position: absolute;
+top: 125px;
+right: 299px;
+width: 308px;
+height: 426px;
+background: url(http://www.mcake.com/postsystem/docroot/images/kindeditor/20140910/2014091010045263911.png)  no-repeat;
+z-index:5;
+display:none;
+}
+#element13 {
+position: absolute;
+top: 90px;
+right: 370px;
+width: 236px;
+height: 453px;
+background: url(http://www.mcake.com/postsystem/docroot/images/kindeditor/20140910/2014091010045219384.png)  no-repeat;
+z-index: 4;
+display:none;
+}
+#element15 {
+position: absolute;
+top: 505px;
+right: 585px;
+width: 43px;
+height: 45px;
+z-index: 2;
+display:none;
+}
+
+/*banner end*/
+
+
+
+
+
+/*幻灯片css*/
+.Slidebox { width: 100%; height: 618px;float:right;  position: relative; overflow:hidden;}
+.Slidebox ul li div{position: relative;}
+.Slidebox ul li div img{ position:absolute; left:50%; margin-left:-1100px;}
+
+/*数字按钮样式*/
+.Slidebox .num { overflow:hidden; height: 0px; position: absolute; bottom:12px; left: 15px; zoom:1; z-index:3 }
+.Slidebox .num li { width: 25px; height: 25px; line-height: 25px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #444444; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
+.Slidebox .num li.on { background: #FF7700; } /*当前项*/
+
+/*上一个  下一个*/
+.Slidebox .prev,
+.Slidebox .next { display:block; width: 54px; height: 105px; background: url(http://www.mcake.com/shop/theme/xth1/images/index/banner_btn.png) no-repeat; position: absolute; top: 115px;top:50%; margin-top:-32px;}
+.Slidebox .prev { left: 30px;  }
+.Slidebox .next { right: 30px; background-position: right }
+
+
+
+/**首页弹出购物车   start */
+
+.tc-con{ width:330px; height:350px; padding:0;background:#f2f6f7; margin:0 auto;
+    position:absolute;
+    z-index:300;
+    _position:absolute;
+    font-size:14px;
+    left:50%;/*FF IE7*/
+    top: 50%;/*FF IE7*/
+    margin-left:-165px!important;/*FF IE7 该值为本身宽的一半 */
+    margin-top:-175px!important;/*FF IE7 该值为本身高的一半*/
+    margin-top:0px;
+    position:fixed!important;/*FF IE7*/
+    position:absolute;/*IE6*/
+    _top: e­xpression(eval(document.compatMode &&
+    document.compatMode=='CSS1Compat') ?
+    documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+
+    }
+
+.tc-con-1{ margin:25px 10px 0 10px;}
+.m_t{border-bottom:1px #b0916a solid; padding-bottom:10px;}
+.m_t span{font-size:10px}
+ul.change_p {overflow:hidden; margin:10px 0 15px 0;}
+ul.change_p li{width:20%; float:left; text-align:center; cursor:pointer; height:35px; line-height:40px; background:url(http://www.mcake.com/shop/theme/xth1/images/comm/ok.png) no-repeat; background-position:10px 0;}
+ul.change_p li.cur{background-position:10px -280px;}
+ul.Explain_list{ margin:0 0 0 30px;}
+ul.Explain_list li{padding-left:16px; font-size:12px; margin:12px 0;background: url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) no-repeat;background-position: -285px -102px;}
+.cake_num{ margin:30px 0 0 30px; overflow:hidden;padding-bottom: 20px;}
+.cake_num span{float:left; line-height:26px; display:block; padding-right:5px;}
+.cake_num dl{ float:left;}
+.cake_num dl dd{ float:left; width:35px; height:25px; background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) -7px -253px #fff; cursor:pointer}
+.cake_num dl dd.nopoint{background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png) -7px -282px #fff;}
+.cake_num dl dd.n_right{ background-position:-67px -253px}
+.cake_num dl dt{float:left; width:35px; height:23px;}
+.cake_num dl dt input{ width:35px; height:20px; background:none; color:#b0916a; margin-top:2px; border:none; text-align:center}
+
+ul.buy_btn_box{overflow:hidden;}
+ul.buy_btn_box li{ width:50%; float:left}
+ul.buy_btn_box li input{ width:98%; background:#b0916a; border:none; margin:2px; height:30px; color:#FFF; cursor:pointer; -moz-border-radius: 2px;/* Gecko browsers */-webkit-border-radius: 2px;   /* Webkit browsers */
+    border-radius:2px;/* W3C syntax */}
+ul.buy_btn_box li input:hover{ background:#8B7860;}
+
+
+.tc-cover{width:100%;height:100%;position:absolute;z-index:200;top:0px;left:0px;opacity:0.3;-moz-opacity:0.3;filter:alpha(opacity=30);background-color:#000}
+.close{width:30px; height:30px; display:block; position:absolute; top:0;right:0; background:url(http://www.mcake.com/shop/theme/xth1/images/comm/icon.png); background-position:-221px -94px; text-indent:-9999px; z-index:10000;}
+
+/**首页弹出购物车   end */
+
+@media(max-width:1360px){
+.class_title{  max-width:1110px;  margin:auto; border-bottom:1px #ccc solid; padding-bottom:10px;}
+.allmenu{width:1130px;height:1px; margin:auto; position:relative}
+.listbox{ width:1110px; overflow:hidden; margin:auto; }
+.image-grid li{float:left; overflow:hidden; width:220px; padding-bottom:35px; cursor:pointer}
+.image-grid li .pro_box img{ height:210px; width:210px; }
+}
+
+
+@media(max-width:1280px){
+.class_title{  max-width:1040px; margin:auto; border-bottom:1px #ccc solid; padding-bottom:10px;}
+.allmenu{width:1060px;height:1px; margin:auto; position:relative}
+.listbox{ width:1040px; overflow:hidden; margin:auto; }
+.image-grid li{float:left; overflow:hidden; width:206px; padding-bottom:35px; cursor:pointer}
+.image-grid li .pro_box img{ height:197px; width:197px; }
+}
+
+
+
+
+
+
+
+
+
+
+/*情人节_2 banner*/
+.banner_box_Lover_2{height:780px; background:url(/postsystem/docroot/images/kindeditor/20150209/2015020910033582215.jpg) no-repeat center 65px #F2F6F7;margin-bottom:20px; position:relative;overflow: hidden;}
+#banner_Lover_2{  margin:auto;  width:1200px; position:relative; height:713px;  }
+/*a.link_b_2{
+	position:absolute;
+	display:block;
+	width:340px;
+	height:200px;
+	top: 240px;
+	left: 370px;
+}*/
+
+.Lover_buy_2{
+	position: absolute;
+	width: 250px;
+	right: 440px;
+	top: 640px;
+	line-height:14px;
+	color:#fff;
+	font-size:14px;
+	text-align:center
+}
+.Lover_buy_2 a.White_btn{
+	height:40px;
+	line-height:40px;
+	border:1px #67463b solid;
+	width:220px;
+	margin-top:10px;
+	text-align:center;
+	display:inline-block;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	position:relative;
+	animation: border 2s infinite;
+	-moz-animation: border 2s infinite;
+	-webkit-animation: border 2s infinite;
+	-o-animation: border 2s infinite;
+}
+.Lover_buy_2 a.White_btn em{width:100%; display:block; height:40px; opacity:0;filter:alpha(opacity=0); background:#fff;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+    animation: opacity 2s infinite;
+	-moz-animation: opacity 2s infinite;
+	-webkit-animation: opacity 2s infinite;
+	-o-animation: opacity 2s infinite;
+	}
+.Lover_buy_2 a.White_btn span{ position:absolute; width:100%; height:42px; display:block;
+    animation: color 2s infinite;
+	-moz-animation: color 2s infinite;
+	-webkit-animation: color 2s infinite;
+	-o-animation: color 2s infinite;
+	z-index:10;
+}
+
+.Lover_buy_2 a.White_btn:link,.Lover_buy_2 a.White_btn:visited,.Lover_buy_2 a.White_btn:active{
+	color:#67463b;
+}
+.Lover_buy_2 a.White_btn:hover{
+}
+/*动画效果*/
+@keyframes opacity{0%{opacity:.5;filter:alpha(opacity=50);}50%{opacity:0;filter:alpha(opacity=0);}100%{opacity:.5;filter:alpha(opacity=50);}} 
+@-webkit-keyframes opacity{0%{opacity:.5;filter:alpha(opacity=50);}50%{opacity:0;filter:alpha(opacity=0);}100%{opacity:.5;filter:alpha(opacity=50);}}
+@-moz-keyframes opacity{0%{opacity:.5;filter:alpha(opacity=50);}50%{opacity:0;filter:alpha(opacity=0);}100%{opacity:.5;filter:alpha(opacity=50);}}
+@-o-keyframes opacity{0%{opacity:.5;filter:alpha(opacity=50);}50%{opacity:0;filter:alpha(opacity=0);}100%{opacity:.5;filter:alpha(opacity=50);}}
+@keyframes color{0%{color:#604335}50%{color:#8c0c17}100%{color:#604335}} 
+@-webkit-keyframes color{0%{color:#604335}50%{color:#8c0c17}100%{color:#604335}}
+@-moz-keyframes color{0%{0%{color:#604335}50%{color:#8c0c17}100%{color:#604335}}
+@-o-keyframes color{0%{0%{color:#604335}50%{color:#8c0c17}100%{color:#604335}}
+@keyframes border{0%{border:1px #67463b solid;}50%{border:1px #8c0c17 solid;}100%{border:1px #67463b solid;}} 
+@-webkit-keyframes border{0%{border:1px #67463b solid;}50%{border:1px #8c0c17 solid;}100%{border:1px #67463b solid;}}
+@-moz-keyframes border{0%{border:1px #67463b solid;}50%{border:1px #8c0c17 solid;}100%{border:1px #67463b solid;}}
+@-o-keyframes border{0%{border:1px #67463b solid;}50%{border:1px #8c0c17 solid;}100%{border:1px #67463b solid;}}
+/*banner end*/
+
+

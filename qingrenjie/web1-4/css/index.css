@@ -1,0 +1,246 @@
+body{background: #fafafa; color: #626262;-webkit-font-smoothing: antialiased; font-smoothing: antialiased; }
+div,img{-webkit-outline:1px solid transparent; outline:1px solid transparent;}
+.hide{ display: none;}
+
+.loading{ position:fixed; top: 0%; width: 100%; height: 100%; text-align: center; z-index: 13;background:#fff; }
+.loading .loadCon{position: relative; width: 100%; height: 100%;}
+.loading .loadingImg{position:absolute; top: 40%; left: 50%;  width: 15%; margin-left: -7.5%; z-index: 1;  }
+.loading .loadingImg span{ display: block; width: 100%;}
+.loading .percent{position:absolute; top: 45%;  width: 100%; line-height: 30px; font-size: 18px; margin:10% auto; color: #c49719; font-style: italic;}
+
+
+.section{ position: relative; width: 100%; height: 100%; text-align: center;  }
+.section3{width: 100%; }
+.section3 .top{ display: block; width: 70%; margin: 5% auto;}
+.section3 .top img{ margin: 5% auto; display: block;}
+
+.section3 .top span{ display: block; cursor: pointer; width: 60%; margin: 10% auto; padding: 5% 0; text-align: center; border-radius: 3px; background: #9d030f; color: #fff;}
+
+.section3 .guize{ width: 94%; margin: 10% auto; font-size: 14px; line-height: 24px; }
+.section3 .guize h2{ text-align: center; color: #838383; font-size: 16px; font-weight: normal;}
+.section3 .guize p{ color: #868686;text-align: left; padding-left: 20px; text-indent: -20px;}
+.section3 .guize p span{ display: block; text-indent: 0px;}
+
+
+.section2{ position:relative; width: 100%;}
+.section2 .snow{ position:absolute; width: 5px; height: 5px; border-radius: 100%; background: #fff;  top: 30%; left: 20%; z-index: 2; }
+.section2 .snow.snow1{top:32%; left: 3%; 
+    -webkit-animation:snow-1 3s 0.2s infinite ease-in-out;
+    animation:snow-1 3s 0.2s infinite ease-in-out;
+}
+.section2 .snow.snow2{ 
+    -webkit-animation:snow-1 3s 1s infinite ease-in-out;
+    animation:snow-1 3s 1s infinite ease-in-out;
+}
+.section2 .snow.snow3{ top:28%; left: 57%; 
+    -webkit-animation:snow-2 2s 0.5s infinite ease-in-out;
+    animation:snow-2 2s 0.5s infinite ease-in-out;
+}
+.section2 .snow.snow3{ top:20%; left: 60%;
+    -webkit-animation:snow-1 4s 0.3s infinite ease-in-out;
+    animation:snow-1 4s 0.3s infinite ease-in-out;
+}
+.section2 .snow.snow4{  top:30%; left: 83%;
+    -webkit-animation:snow-2 3s 1.5s infinite ease-in-out;
+    animation:snow-2 3s 1.5s infinite ease-in-out;
+}
+
+.section2 .snow.snow5{  top:25%; left: 40%; 
+    -webkit-animation:snow-1 3.5s 1.2s infinite ease-in-out;
+    animation:snow-1 3.5s 1.2s infinite ease-in-out;
+}
+.section2 .snow.snow6{  top:23%; left: 50%;
+    -webkit-animation:snow-2 4s 1s infinite ease-in-out;
+    animation:snow-2 4s 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes snow-1{
+    0%{-webkit-transform:translate(0,0) translateZ(0); }
+    100%{-webkit-transform:translate(350%,7200%) translateZ(0);}
+}
+@keyframes snow-1{
+    0%{transform:translate(0,0) translateZ(0); }
+    100%{transform:translate(350%,7200%) translateZ(0);}
+}
+
+@-webkit-keyframes snow-2{
+    0%{-webkit-transform:translate(0,0) translateZ(0);}
+    100%{-webkit-transform:translate(-200%,7800%) translateZ(0);}
+}
+@keyframes snow-2{
+    0%{transform:translate(0,0) translateZ(0); }
+    100%{transform:translate(-200%,7800%) translateZ(0);}
+}
+
+.section2 .rose{ position:absolute; width: 25%; top: 5%; left: -50%; z-index: 3;}
+.section2 .ren{ position: absolute; bottom: -4%; right: -8%; width: 96%; z-index:1; }
+.section2 .bottom{ position: absolute; bottom: -20%; right: 0; width:100%; z-index: 3; }
+.section2 .words{ position: absolute; top: 0; left: 0; width:51.62%; height: 100%; background: url(../images/sec2-guang.png) center center no-repeat; background-size: 100%; z-index: 2; }
+img.fade{ opacity: 0;}
+.fadeUp9{
+    -webkit-animation:fadeUp 0.4s ease-in 1.5s forwards;
+    animation:fadeUp 0.4s ease-in 1.5s forwards;
+}
+.fadeUp8{
+    -webkit-animation:fadeUp 0.4s ease-in 1.3s forwards;
+    animation:fadeUp 0.4s ease-in 1.3s forwards;
+}
+.fadeUp7{
+    -webkit-animation:fadeUp 0.4s ease-in 1.1s forwards;
+    animation:fadeUp 0.4s ease-in 1.1s forwards;
+}
+.fadeUp6{
+    -webkit-animation:fadeUp 0.4s ease-in 0.9s forwards;
+    animation:fadeUp 0.4s ease-in 0.9s forwards;
+}
+.fadeUp5{
+    -webkit-animation:fadeUp 0.4s ease-in 0.7s forwards;
+    animation:fadeUp 0.4s ease-in 0.7s forwards;
+}
+.fadeUp4{
+    -webkit-animation:fadeUp 0.4s ease-in 0.5s forwards;
+    animation:fadeUp 0.4s ease-in 0.5s forwards;
+}
+.fadeUp3{
+    -webkit-animation:fadeUp 0.4s ease-in 0.3s forwards;
+    animation:fadeUp 0.4s ease-in 0.3s forwards;
+}
+.fadeUp2{
+    -webkit-animation:fadeUp 0.4s ease-in 0.1s forwards;
+    animation:fadeUp 0.4s ease-in 0.1s forwards;
+}
+.fadeUp1{
+    -webkit-animation:fadeUp 0.3s ease-in forwards;
+    animation:fadeUp 0.3s ease-in forwards;
+}
+
+
+@-webkit-keyframes fadeUp{
+    0%{ -webkit-transform: translate(0,150%) translateZ(0); opacity: 0;}
+    100%{ -webkit-transform: translate(0,0) translateZ(0); opacity: 1;}
+}
+@keyframes fadeUp{
+	0%{ transform: translate(0,150%) translateZ(0); opacity: 0;}
+	100%{ transform: translate(0,0) translateZ(0); opacity: 1;}
+}
+
+.section2 .words p{ position: relative; display: block; width: 100%; margin: 61% 3%;}
+.section2 .words b{ position: relative; width: 90%; margin: 1% auto; display: block;}
+.section2 .words p span{ display: block; font-size: 16px; color: #b00210; margin: 6% 0;}
+.section2 .words .price{ margin: 7% 0;}
+.section2 .words i.lIcon{ position:absolute; display: block; width: 17%; left: 0;}
+.section2 .words i.lIcon img{ margin: 28% 29%;}
+.section2 .words i.lIcon img:last-child{ display: none;}
+.section2 .words i.rIcon{ position:absolute; display: block; width: 17%; height: 100%; right: 0; font-size: 10px;}
+.section2 .words i.rIcon em{ position: absolute; display: block; width: 8px; height: 8px; background: #e60012; border-radius: 100%; margin: 10% 26%;
+    -webkit-animation:fadeToggle 2s infinite ease-in-out;
+    animation:fadeToggle 2s infinite ease-in-out;
+}
+.section2 .words i.rIcon b{ display: block; width: 100%; height: 100%; margin: 0; line-height: 40px; }
+/*录音闪烁*/
+@-webkit-keyframes fadeToggle{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes fadeToggle{
+	0%{opacity: 0;}
+    50%{opacity: 1;}
+	100%{opacity:0;}
+}
+
+
+.section1{ width: 100%; margin-top: 16%;}
+.section1 .rose{ position:absolute; width: 25%; top: 17%; left: -50%; z-index: 5;}
+.section1 .leaf{ position:absolute; width: 8%; top: 21%; left: 20%; z-index: 3; background: url(../images/leaf-1.png) no-repeat; background-size: 100%; padding: 3% 0;}
+.section1 .leaf.leaf1{width: 5%; top:22%; left: 3%;
+    -webkit-animation:leaf-1 3s 0.2s infinite ease-in-out;
+    animation:leaf-1 3s 0.2s infinite ease-in-out;
+}
+.section1 .leaf.leaf2{ 
+    -webkit-animation:leaf-1 3s 1s infinite ease-in-out;
+    animation:leaf-1 3s 1s infinite ease-in-out;
+}
+.section1 .leaf.leaf3{ width: 5%; top:18%; left: 57%;
+    -webkit-animation:leaf-2 2s 0.5s infinite ease-in-out;
+    animation:leaf-2 2s 0.5s infinite ease-in-out;
+    background: url(../images/leaf-2.png) no-repeat; background-size: 100%;
+}
+.section1 .leaf.leaf3{ width: 8%; top:23%; left: 66%;
+    -webkit-animation:leaf-1 4s 0.3s infinite ease-in-out;
+    animation:leaf-1 4s 0.3s infinite ease-in-out;
+    background: url(../images/leaf-2.png) no-repeat; background-size: 100%;
+}
+.section1 .leaf.leaf4{ width: 5%; top:20%; left: 81%;
+    -webkit-animation:leaf-2 3.5s 1.2s infinite ease-in-out;
+    animation:leaf-2 3.5s 1.2s infinite ease-in-out;
+}
+
+
+/*树叶飘落*/
+@-webkit-keyframes leaf-1{
+    0%{-webkit-transform:translate(0,0) translateZ(0); opacity: 0;}
+    100%{-webkit-transform:translate(300%,500%) translateZ(0); opacity: 1;}
+}
+@keyframes leaf-1{
+	0%{transform:translate(0,0) translateZ(0); opacity: 0;}
+	100%{transform:translate(300%,500%) translateZ(0); opacity: 1;}
+}
+
+@-webkit-keyframes leaf-2{
+    0%{-webkit-transform:translate(0,0) translateZ(0); opacity: 0;}
+    100%{-webkit-transform:translate(200%,800%) translateZ(0); opacity: 1;}
+}
+@keyframes leaf-2{
+	0%{transform:translate(0,0) translateZ(0); opacity: 0;}
+	100%{transform:translate(200%,800%) translateZ(0); opacity: 1;}
+}
+
+
+.section1 .words{ position: absolute; bottom: 4%; left: 50%; margin-left: -27%; width:54%; height: 24%; background: url(../images/sec2-guang.png) top center no-repeat; background-size:60%; }
+
+
+.home-page{ width: 100%; height: 100%;}
+.home-page .rose{ position:absolute; width: 25%; top: 21%; left: 50%; margin-left: -15%;-webkit-transform: scale(0.1) translateZ(0); transform: scale(0.1) translateZ(0); z-index: 3; opacity: 0;} 
+.home-page .rose1{ margin-left: -5%;}
+.home-page .rose2{ z-index: 2;margin-top: -4%; margin-left: -23%;}	
+.home-page .rose3{ z-index: 1; margin-top: -3%;}	
+.home-page .box{ position: absolute; top: 8%; width: 100%; z-index: 5;-webkit-transform:scale(0.8) translateZ(0); transform:scale(0.8) translateZ(0);} /*宝盒*/
+.home-page .words{ position: absolute; bottom: 32%; left: 50%; width: 53.5%; margin-left: -26.7%; }
+.home-page .price{ position: absolute; bottom: 21%; left: 50%; width: 45.7%; margin-left: -22.8%;}
+.home-page .tips{ position: absolute; bottom: 7%; left: 50%; width: 80%; margin-left: -40%; text-align: center;}
+.home-page .tips p{ font-size: 16px;}
+.home-page .tips span{ width: 8%; margin: 5% auto 15% auto; display: block; }
+.home-page .tips .across{
+	-webkit-animation:up 1s infinite ease-in;
+	animation:up 1s infinite ease-in;
+}
+.home-page .tips p{ text-align: center; font-size: 16px; font-weight: bold;}
+
+
+@-webkit-keyframes up{
+	0%{-webkit-transform:translateY(0) translateZ(0); opacity:0}
+	50%{-webkit-transform:translateY(10px) translateZ(0); opacity:1}
+	100%{-webkit-transform:translateY(20px) translateZ(0); opacity:0}
+}
+@keyframes up{
+	0%{transform:translateY(0) translateZ(0);opacity:0}
+	50%{transform:translateY(10px) translateZ(0);opacity:1}
+	100%{transform:translateY(20px) translateZ(0);opacity:0}
+}
+
+
+
+
+@media only screen and  (max-width: 640px) {
+	.section3 .guize p{ font-size: 12px;}
+}
+
+@media only screen and (max-width:340px) {
+	.section3 .guize p{ font-size: 13px;}
+}
+/*大屏*/
+@media only screen and  (min-width: 640px) {
+	.section3 .guize p{ font-size: 14px; }
+}
+

@@ -1,0 +1,327 @@
+.butterFly-wrap{
+        position: relative;
+        /*width:1003px;*/
+        margin:0 auto;
+}
+.butterFly-imgs img{
+    display: block;
+    width:100%;
+    max-width:100%;
+}
+
+.butterflies>div>:nth-child(1):after,.butterflies>div>:nth-child(1):before {
+    content: "";
+    display: block;
+    background-color: rgba(235,208,188,.4);
+    right: 0
+}
+
+.currentlg,.switchlg a {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.zone_link a:hover {
+    border-bottom: solid 1px #483e34
+}
+
+.center {
+    position: absolute;
+    bottom: 400px;
+    left: 50%;
+    width: 1px;
+    height: 1px
+}
+
+.butterflies>div,.butterflies>div>:nth-child(1) {
+    height: 20px;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    position: absolute;
+    animation-easing-function: cubic-bezier(.55,.055,.675,.19)
+}
+
+@-webkit-keyframes swingLeft {
+    from {
+        -webkit-transform: rotate3d(0,1,0,-54deg);
+        transform: rotate3d(0,1,0,-54deg)
+    }
+
+    to {
+        -webkit-transform: rotate3d(0,1,0,54deg);
+        transform: rotate3d(0,1,0,54deg)
+    }
+}
+
+@keyframes swingLeft {
+    from {
+        -webkit-transform: rotate3d(0,1,0,-54deg);
+        transform: rotate3d(0,1,0,-54deg)
+    }
+
+    to {
+        -webkit-transform: rotate3d(0,1,0,54deg);
+        transform: rotate3d(0,1,0,54deg)
+    }
+}
+
+@-webkit-keyframes swingRight {
+    from {
+        -webkit-transform: rotate3d(0,1,0,54deg);
+        transform: rotate3d(0,1,0,54deg)
+    }
+
+    to {
+        -webkit-transform: rotate3d(0,1,0,-54deg);
+        transform: rotate3d(0,1,0,-54deg)
+    }
+}
+
+@keyframes swingRight {
+    from {
+        -webkit-transform: rotate3d(0,1,0,54deg);
+        transform: rotate3d(0,1,0,54deg)
+    }
+
+    to {
+        -webkit-transform: rotate3d(0,1,0,-54deg);
+        transform: rotate3d(0,1,0,-54deg)
+    }
+}
+
+@-webkit-keyframes fly {
+    0% {
+        -webkit-transform: perspective(750px) scale(2.4) rotate3d(1,-1,0,120deg) translate3d(-100px,50px,0);
+        transform: perspective(750px) scale(2.4) rotate3d(1,-1,0,120deg) translate3d(-100px,50px,0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: perspective(750px) scale(2.4) rotate3d(1,1,0,75deg) translate3d(150px,-40px,-25px);
+        transform: perspective(750px) scale(2.4) rotate3d(1,1,0,75deg) translate3d(150px,-40px,-25px);
+        opacity: 1
+    }
+}
+
+@keyframes fly {
+    0% {
+        -webkit-transform: perspective(750px) scale(2.4) rotate3d(1,-1,0,120deg) translate3d(-100px,50px,0);
+        transform: perspective(750px) scale(2.4) rotate3d(1,-1,0,120deg) translate3d(-100px,50px,0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: perspective(750px) scale(2.4) rotate3d(1,1,0,75deg) translate3d(150px,-40px,-25px);
+        transform: perspective(750px) scale(2.4) rotate3d(1,1,0,75deg) translate3d(150px,-40px,-25px);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fly-shadows {
+    0% {
+        opacity: 1;
+        -webkit-transform: perspective(750px) scale(4) rotate3d(1,-1,0,75deg) translate3d(-100px,50px,70px);
+        transform: perspective(750px) scale(4) rotate3d(1,-1,0,75deg) translate3d(-100px,50px,70px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: perspective(750px) scale(3) rotate3d(1,1,0,75deg) translate3d(60px,0,64px);
+        transform: perspective(750px) scale(3) rotate3d(1,1,0,75deg) translate3d(60px,0,64px)
+    }
+}
+
+@keyframes fly-shadows {
+    0% {
+        opacity: 1;
+        -webkit-transform: perspective(750px) scale(4) rotate3d(1,-1,0,75deg) translate3d(-100px,50px,70px);
+        transform: perspective(750px) scale(4) rotate3d(1,-1,0,75deg) translate3d(-100px,50px,70px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: perspective(750px) scale(3) rotate3d(1,1,0,75deg) translate3d(60px,0,64px);
+        transform: perspective(750px) scale(3) rotate3d(1,1,0,75deg) translate3d(60px,0,64px)
+    }
+}
+
+.butterflies {
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+    z-index: 2000;
+}
+
+.butterflies>div {
+    width: 22px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(750px) scale(3) rotate3d(1,-1,0,75deg) translate3d(0px,0px,0px);
+    transform: perspective(750px) scale(3) rotate3d(1,-1,0,75deg) translate3d(0px,0px,0px);
+}
+
+.butterflies>div:nth-child(odd) {
+    -webkit-animation-direction: alternate-reverse;
+    animation-direction: alternate-reverse
+}
+
+.butterflies>div>:nth-child(1) {
+    width: 10px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-animation-name: swingLeft;
+    animation-name: swingLeft;
+    -webkit-animation-duration: .1s;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+.butterflies>div>:nth-child(1):before {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px
+}
+
+.butterflies>div>:nth-child(1):after {
+    border-radius: 5px;
+    position: absolute;
+    top: 8px;
+    width: 6px;
+    height: 6px
+}
+
+.butterflies>div>:nth-child(2):after,.butterflies>div>:nth-child(2):before {
+    content: "";
+    background-color: rgba(255,145,96,.4);
+    border-radius: 5px;
+    left: 0;
+    position: absolute;
+    display: block
+}
+
+.butterflies>div>:nth-child(2) {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-animation-name: swingRight;
+    animation-name: swingRight;
+    animation-easing-function: cubic-bezier(.55,.055,.675,.19);
+    -webkit-animation-duration: .1s;
+    animation-duration: .1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate
+}
+
+.butterflies>div>:nth-child(2):before {
+    top: 0;
+    width: 10px;
+    height: 10px
+}
+
+.butterflies>div>:nth-child(2):after {
+    top: 8px;
+    width: 6px;
+    height: 6px
+}
+
+.butterflies>div:nth-child(1) {
+    -webkit-animation-duration: 3.3s;
+    animation-duration: 3.3s;
+    animation-easing-function: cubic-bezier(.785,.135,.15,.86)
+}
+
+.butterflies>div:nth-child(1)>:after,.butterflies>div:nth-child(1)>:before {
+    -webkit-animation-duration: 3.3s;
+    animation-duration: 3.3s;
+    animation-easing-function: cubic-bezier(.785,.135,.15,.86)
+}
+
+.butterflies>div:nth-child(2) {
+    top: -12px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    animation-easing-function: cubic-bezier(.55,.055,.675,.19)
+}
+
+.butterflies>div:nth-child(2)>:after,.butterflies>div:nth-child(2)>:before {
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    animation-easing-function: cubic-bezier(.55,.055,.675,.19)
+}
+
+.butterflies.butterflies-shadows>div {
+   /* -webkit-animation-name: fly-shadows;
+    animation-name: fly-shadows;*/
+    -webkit-animation-name: none;
+    animation-name: none;
+    opacity:1;
+}
+
+.butterflies.butterflies-shadows>div>:before {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@ms-val)";
+    filter: alpha(opacity=80);
+    -moz-opacity: .8;
+    -khtml-opacity: .8;
+    opacity: .8;
+    background: #b27e58;
+    background: -moz-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0,#b27e58),color-stop(100%,#d6aa8a));
+    background: -webkit-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: -o-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: -ms-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b27e58', endColorstr='#d6aa8a', GradientType=1);
+    box-shadow: 6px -8px 17px 0 rgba(0,0,0,.28)
+}
+
+.butterflies.butterflies-shadows>div>:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@ms-val)";
+    filter: alpha(opacity=80);
+    -moz-opacity: .8;
+    -khtml-opacity: .8;
+    opacity: .8;
+    background: #b27e58;
+    background: -moz-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0,#b27e58),color-stop(100%,#d6aa8a));
+    background: -webkit-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: -o-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: -ms-linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    background: linear-gradient(45deg,#b27e58 0,#d6aa8a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b27e58', endColorstr='#d6aa8a', GradientType=1)
+}
+
+.svg-box,
+.fly-layer{
+    position: absolute;
+    left:50%;
+    top:0;
+    width:1200px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1000; border: blue 2px solid;
+}
+
+.fly-layer{
+    z-index: 1000;
+}
