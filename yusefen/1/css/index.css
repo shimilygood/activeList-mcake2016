@@ -1,0 +1,74 @@
+body{background: #9fcad9; color: #345967;}
+.hide{ display: none;}
+.fLeft{ float: left;}
+.fRight{ float: right;}
+
+.section{ position: relative; width: 100%; height: 100%; text-align: center; color: #345967; }
+.section span{position:relative; display: block; height: 100%;}
+.sTop p{ position: absolute; width: 26.7%; top: 19%; right: 7%;}
+.sbanner .cake{ position: absolute; width:91%; top:12%; right:0; cursor: pointer; z-index: 1;}
+.sbanner .hand{ position: absolute; width:62%; top:65%; left:0; z-index: 2; }
+
+.infos{ background: url(../images/sf-bbg.jpg) repeat; clear: both; padding-top: 10%; }
+.city{ position: absolute; top: 0; width: 100%; display: block; z-index: 5;}
+.city p{ display: block; float: left; width: 23%; margin-left: 7%; line-height: 30px;}
+.city p span{width: 109%; padding: 19% 0; background: url(../images/sf-city.png) no-repeat; background-size: 100%;}
+.city p+p{ display: inline-block; width: 45%;margin-left: 5%;}
+.city p+p em{ display:block; float: left; width: 39%; padding: 10% 0; margin: 0 10% 0 0; background: url(../images/city-1.png) no-repeat; background-size: 100%; cursor: pointer;}
+.city p+p em+em{ background: url(../images/city-2.png) no-repeat; background-size: 100%;}
+.city p+p em.on{background: url(../images/city-1-hl.png) no-repeat; background-size: 100%;}
+.city p+p em+em.on{background: url(../images/city-2-hl.png) no-repeat; background-size: 100%;}
+
+
+.infos .infobox{ width:100%;font-size: 16px; height: 100%; }
+.infos .infobox .info{ display: none; font-size: 13px;}
+.infobox .line{width: 100%; clear: both; position: relative;}
+.infobox .line p{ position: relative; display:block; float: left; margin-left: 7%; width: 23%; margin-top: 3%; line-height: 34px;}
+
+.infobox .line p+p{ display: inline-block; width: 54%; margin-left: 5%; text-align: left;}
+.infobox .line p+p input{ width: 100%; height: 100%; padding: 4% 2%; background: #cee0e7; border: none; border-radius: 5px; font-size: 13px; color: #345967; }
+.infobox .line p span{width: 109%; padding: 19% 0; background: url(../images/sf-city.png) no-repeat; background-size: 100%; margin-top: 5%;}
+.infobox .line p span.sname{background: url(../images/sf-name.png) no-repeat; background-size: 100%;}
+.infobox .line p span.stel{background: url(../images/sf-tel.png) no-repeat; background-size: 100%;}
+.infobox .line p span.adress{background: url(../images/sf-adress.png) no-repeat; background-size: 100%;}
+.infobox .line p span.time{background: url(../images/sf-time.png) no-repeat; background-size: 100%;}
+.infobox .submit{ width: 100%;} 
+.infobox .submit span{display: inline-block; width: 46%; padding: 3% 0; margin-top: 5%; background: #345967; border-radius: 5px; color: #fff; font-size: 18px;}
+
+.ui-select {text-align: center; position: relative; background: #cee0e7; height: 100%; border-radius: 5px; padding: 0 1%;}  
+.ui-select select {position: absolute; left: 0px; top: 0px;  width: 100%; opacity: 0; text-align:center; border: none; height: 100%; background: none;}  
+.ui-select select option{border: none; height: 100%; background: none;}
+.corner{ position: absolute; top: 25%; right: 5%; width: 6%;}
+
+/*底部规则*/
+.guize{  height: 100%; color: #345967; padding-bottom: 10%; padding-top: 5%; background: url(../images/sf-bbg.jpg) repeat; }
+.guize div{ width: 43.6%; margin:0 auto;}
+.guize div+div{ width: 92%; padding: 2% 4%; height: 100%;}
+.guize div+div p{ font-size: 14px; line-height: 20px; text-align: left; color: #345967; font-weight: bold; padding: 1% 0; }
+.infobox .line p span{width: 109%; padding: 19% 0; background: url(../images/login-tel.png) no-repeat; background-size: 100%; margin-top: 5%;}
+
+
+/*弹窗*/
+.bgCover{ position:absolute; top: 0; width: 100%; height: 100%; background: #000; opacity: 0.7; z-index: 5; display: none}
+.tanchuang{ position: fixed; top: 50%; width: 80%; left: 50%; margin-left: -40%; background: #cee0e7;z-index: 6; border-radius: 5px; display: none; max-width: 640px;}
+.tanchuang .tcCon{ width: 92%; margin: 10% auto 15% auto; color: #345967; text-align: center; }
+.tanchuang .tcCon .close{ position: absolute; width: 10%; top: 5%; right: 5%; padding: 5% 0; background: url(../images/sf-close.png) no-repeat; background-size: 100%; }
+.tanchuang .tcCon img{ width:15%; margin: 0 auto;}
+.tanchuang .tcCon img.login-title{ width: 90%; margin: 0 auto;}
+.tanchuang .tcCon p{ text-align: center; font-size: 18px; margin: 10% auto 0 auto; }
+.tanchuang .tcCon div{ width: 100%;}
+.tanchuang .tcCon .btn{ margin-top: 10%;}
+.tanchuang .tcCon .btn.loginBtn{ margin-top: 7%;}
+.tanchuang .tcCon .btn span{display: inline-block; padding: 4% 7%; background: #345967; border-radius: 5px; color: #fff; font-size: 14px;}
+/*登录*/
+.login .tcCon .line{ width: 90%; margin:0 auto; clear: both;}
+.login .tcCon .line p{ display:block; float: left; width: 30%; margin: 6% 0 0 0; line-height: 30px;}
+.login .tcCon .line p+p{ width: 61%; margin-left: 5%;}
+.login .tcCon .line p+p input{ width: 100%; height: 100%; padding: 6% 2%; background: #345967; border: none; border-radius: 5px; color: #fff; font-size:14px;}
+.login .tcCon .line p span{ display: block; width: 89%; padding: 23% 0; line-height: 30px; background: url(../images/login-tel.png) no-repeat; background-size: 100%; margin-top: 5%; }
+
+.login .tcCon .line p span.password{background: url(../images/login-password.png) no-repeat; background-size: 100%;}
+
+@media only screen and  (min-width: 640px) {
+	
+}
